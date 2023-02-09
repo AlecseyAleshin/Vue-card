@@ -1,0 +1,210 @@
+body {
+    background-color: #dcd9d8;
+}
+.card {
+    position: absolute;
+    display: flex;
+    width: 864px;
+    height: 502px;
+    top: 150px;
+    left: 250px;
+    background-color: white;
+    box-shadow: 0px 8px 20px rgba(68, 75, 77, 0.15);
+    border-radius: 8px;
+}
+#frame {
+    position: absolute;
+    display: flex;
+    right:0;
+}
+#off10 {
+    position: absolute;
+    width: 416px;
+    height: 104px;
+    left: 32px;
+    top: 40px;
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 104px;
+    line-height: 100%;
+}
+#off10 span {
+    font-size: 24px;
+
+}
+#off {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+}
+.order {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 26px;
+
+    position: absolute;
+    width: 339px;
+    height: 112px;
+    left: 32px;
+    top: 160px;
+}
+#order {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #828688
+}
+#rectangle {
+    width: 67px;
+height: 2px;
+
+background: #C24DFE;
+border-radius: 10px;
+
+}
+#sub {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    /* or 17px */
+
+    display: flex;
+    align-items: center;
+
+    /* Grey/3 */
+
+    color: #828688;
+
+}
+.email {
+    position: absolute;
+    width: 302px;
+    height: 150px;
+    left: 32px;
+    top: 312px;
+}
+.email #text {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #595E61;
+} 
+#email {
+    box-sizing: border-box;
+    width: 302px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #D5D7D7;
+    border-radius: 6px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 5px;
+}
+#but {
+    position: absolute;
+    top: 90px;
+    width: 58px;
+    height: 14px;
+    
+    /* Button/Small Header */
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    /* White */
+    
+    color: #FFFFFF;
+    
+    
+
+}
+#ext {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828688;
+}
+
+
+
+.checkBox {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.checkLabel {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #828688;
+}
+.checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  .checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #C24DFE;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  .checkbox:checked+label::before {
+    background-image: url(../img/Rectangle\ 132.png);
+  }
+  .subscribeOk {
+    position: absolute;
+    left: 32px;
+    bottom: 5px;
+    color:#19e619;
+  }
+  .subscribeNo {
+    position: absolute;
+    left: 32px;
+    bottom: 5px;
+    color:#e34234;
+  }
+  .checkNo {
+    position: absolute;
+    left: 32px;
+    bottom: 5px;
+    color:#e34234;
+  }
